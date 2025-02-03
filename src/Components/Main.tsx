@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Info from "./info";
+import Info from "./Info";
 
 const Main = () => {
   return (
