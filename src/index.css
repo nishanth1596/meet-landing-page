@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Cyan-600: #4d96a9;
+  --color-Cyan-300: #8fe3f9;
+  --color-Purple-600: #855fb1;
+  --color-Purple-300: #d9b8ff;
+  --color-Slate-900: #28283d;
+  --color-Slate-600: #87879d;
+  --color-Slate-300: #d1d1df;
+  --color-White: #fafafa;
+
+  /* Typography */
+  --font-redHatDisplay: "Red Hat Display", "serif";
+}
