@@ -12,4 +12,29 @@
 
   /* Typography */
   --font-redHatDisplay: "Red Hat Display", "serif";
+
+  /* Breakpoint 500px */
+  --breakpoint-500p: 29.3rem;
+}
+
+@layer components {
+  .footerImg {
+    background-image: url("./assets/mobile/image-footer.jpg");
+    background-size: cover;
+    width: 100%;
+    background-color: rgba(77, 151, 169, 0.7);
+    background-position: top;
+  }
+
+  @media (min-width: 768px) {
+    .footerImg {
+      background-image: url("./assets/tablet/image-footer.jpg");
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .footerImg {
+      background-image: url("./assets/desktop/image-footer.jpg");
+    }
+  }
 }
