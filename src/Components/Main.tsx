@@ -27,7 +27,7 @@ const Main = () => {
         <img
           src={heroDesktoprightImg}
           alt="Desktop Right Image"
-          className="lg:absolute lg:top-16 lg:right-[-26px] lg:w-[50%] lg:max-w-[394px]"
+          className="lg:absolute lg:top-[7.56rem] lg:right-[-26px] lg:w-[50%] lg:max-w-[394px]"
         />
       </div>
 

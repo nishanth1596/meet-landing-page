@@ -7,27 +7,31 @@ const Footer = () => {
       <img
         src={number2}
         alt="Number 2"
-        className="absolute top-0 right-1/2 translate-x-1/2"
+        className="absolute top-0 right-1/2 z-10 translate-x-1/2"
       />
 
-      <div className="text-White footerImg mt-[6.75rem] flex flex-col items-center gap-6 bg-cover bg-top px-8 py-16 text-center lg:mx-0 lg:flex-row lg:justify-between lg:gap-8 lg:px-40 lg:py-28 lg:text-left">
-        <h3 className="text-[2rem] leading-[1.1] font-black">
-          Experience more together
-        </h3>
-        <p className="text-base leading-6 font-medium lg:max-w-[355px] lg:text-lg">
-          Stay connected with reliable HD meetings and unlimited one-on-one and
-          group <span className="block lg:inline-block">video</span> sessions.
-        </p>
+      <div className="relative">
+        <div className="bg-Cyan-600 absolute inset-0 opacity-50"></div>
+        <div className="text-White footerImg mt-[6.75rem] flex flex-col items-center gap-6 bg-cover bg-top px-8 py-16 text-center lg:mx-0 lg:flex-row lg:justify-between lg:gap-8 lg:px-40 lg:py-28 lg:text-left">
+          <h3 className="text-[2rem] leading-[1.1] font-black">
+            Experience more together
+          </h3>
+          <p className="text-base leading-6 font-medium lg:max-w-[355px] lg:text-lg">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group <span className="block lg:inline-block">video</span>{" "}
+            sessions.
+          </p>
 
-        <Button
-          type="download"
-          color="#855fb1"
-          spanColor="#d9b8ff"
-          isFooter={true}
-        />
+          <Button
+            type="download"
+            color="#855fb1"
+            spanColor="#d9b8ff"
+            isFooter={true}
+          />
+        </div>
       </div>
 
-      <div className="absolute bottom-0 left-1/2 hidden w-full -translate-x-1/2 animate-pulse text-center text-white">
+      <div className="absolute bottom-0 left-1/2 w-full -translate-x-1/2 animate-pulse text-center text-white">
         Challenge by{""}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor

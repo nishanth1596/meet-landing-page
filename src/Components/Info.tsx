@@ -19,20 +19,19 @@ const Info = () => {
         <img src={img3} alt="Men in meeting" />
         <img src={img4} alt="Man texting" />
       </div>
-      <div className="place-self-center lg:max-w-[34rem]">
-        <p className="text-Cyan-600 mt-16 text-xs leading-[1.1] font-black tracking-[4px] md:text-sm lg:text-base">
-          Built For Modern Use
-        </p>
-        <h2 className="text-Slate-900 mt-4 text-[2rem] leading-[1.1] font-black md:mx-[7.47rem] md:text-4xl lg:mx-12 lg:text-[2.5rem]">
-          Smarter meetings, all in one place
-        </h2>
 
-        <p className="text-Slate-600 mt-8 text-base leading-6 font-medium md:mx-[5.63rem] lg:mx-0 lg:text-lg">
-          Send messages, share files, show your screen, and record your meetings
-          - all in one workspace. Control who can join with invite-only team
-          access, data encryption, and data export.
-        </p>
-      </div>
+      <p className="text-Cyan-600 mt-16 text-xs leading-[1.1] font-black tracking-[4px] md:text-sm lg:text-base">
+        Built For Modern Use
+      </p>
+      <h2 className="text-Slate-900 mt-4 text-[2rem] leading-[1.1] font-black md:mx-[7.47rem] md:text-4xl lg:mx-[23.7rem] lg:text-[2.5rem]">
+        Smarter meetings, all in one place
+      </h2>
+
+      <p className="text-Slate-600 mt-8 text-base leading-6 font-medium md:mx-[5.63rem] lg:mx-[20.6rem] lg:text-lg">
+        Send messages, share files, show your screen, and record your meetings -
+        all in one workspace. Control who can join with invite-only team access,
+        data encryption, and data export.
+      </p>
     </section>
   );
 };
