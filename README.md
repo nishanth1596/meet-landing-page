@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/nishanth1596/meet-landing-page)
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://nishanth-meet-landing-page.netlify.app/)
 
 ### Features
 
